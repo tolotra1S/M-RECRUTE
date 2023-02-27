@@ -5,6 +5,7 @@ import probg from "../assets/images/bg/download.jpg";
 import { useEffect, useState } from 'react';
 import AuthUser from "../views/components/AuthUser";
 
+{/********connecté**********/}
 const navigation = [
   {
     title: "Home",

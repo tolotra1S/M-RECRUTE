@@ -10,6 +10,7 @@ const FullLayout = () => {
   const {getToken} = AuthUser();
   if(!getToken()){
     return (<main>
+      {/********connecté**********/}
       {/********header**********/}
       <Headerguest />
       <div className="pageWrapper d-lg-flex">
